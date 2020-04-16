@@ -3,7 +3,7 @@
 # Language Settings
 Language:
   # Defines the used language and the corresponding file used. The corresponding language file will be placed in the lang folder next to the config.yml named: <Language>.yml
-  Language: en
+  Language: de
   # Options:
   #     Overwrite (deletes all changes from the file and extracts a new language file)
   #     Upgrade (extracts a new language file and copy's all settings from the old language file)
@@ -11,7 +11,7 @@ Language:
   UpdateMode: Upgrade
 
 # Title to be shown for the opened inventory for everyone except the owner of the backpack. Can contain {OwnerName} (which will be replaced with the players name).
-BackpackTitleOther: "&b{OwnerName}'s Backpack"
+BackpackTitleOther: "&b{OwnerName}'s Rucksack"
 # The title of the inventory for the owner of the backpack.
 BackpackTitle: "&bBackpack"
 # Defines if the content of the backpack get dropped on the death of a player.
